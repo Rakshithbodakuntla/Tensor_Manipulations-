@@ -1,3 +1,8 @@
+700772672
+Rakshith Bodakuntla
+
+
+
 1.	What patterns do you observe in the training and validation accuracy curves?
    
 Training accuracy typically increases steadily over epochs as the model learns the training data.
