@@ -1,0 +1,22 @@
+1. What patterns do you see in accuracy curves? 
+	*Steady Training Accuracy Growth: The model continuously improves its ability to classify data correctly during training.  
+	*Validation Accuracy Follows Initially: At the start, validation accuracy rises alongside training accuracy as the model learns general patterns.  
+	*Possible Fluctuations: At some point, validation accuracy might stop improving or start oscillating.  
+	*Signs of Overfitting: If training accuracy keeps improving while validation accuracy declines, the model is memorizing training data instead of generalizing.  
+	*Underfitting Issues: If validation accuracy remains low even after multiple epochs, the model might be too simple for the problem.  
+
+
+2. How can TensorBoard help spot overfitting?  
+	*Loss Trends Analysis: If training loss keeps decreasing while validation loss increases, it signals overfitting.  
+	*Accuracy Gap Monitoring: A gap between training and validation accuracy suggests the model is struggling to generalize.  
+	*Histogram Visualization: Examining weight histograms in TensorBoard helps detect extreme values, which often indicate overfitting.  
+	*Learning Rate Insights: By tracking gradient updates, TensorBoard can show if the model is learning too aggressively or too slowly.  
+	*Early Stopping Decision Making: If validation metrics start declining, TensorBoard helps decide when to stop training.  
+
+
+3. What happens when you increase the number of epochs?
+	*Improved Learning Initially: More epochs allow the model to refine its understanding and improve accuracy.  
+	*Risk of Overfitting: After a certain point, training accuracy may continue improving, but validation accuracy might drop.  
+	*Longer Training Time: Increasing epochs requires more computation, which could slow down training or waste resources.  
+	*Potential Validation Loss Increase: If trained too long, the model starts focusing too much on training examples, losing generalization ability.  
+	*Best Practice: (Early Stopping) Implementing early stopping prevents unnecessary training once the model stops improving.  
