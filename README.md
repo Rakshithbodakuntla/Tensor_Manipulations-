@@ -1,3 +1,8 @@
+Name: Rakshith Bodakuntla
+ID: 700772672
+
+
+
 # TensorFlow Assignments: Tensors, Loss Functions & TensorBoard
 
 This notebook demonstrates three key concepts in TensorFlow: tensor manipulation, loss function behavior, and training visualization with TensorBoard.
